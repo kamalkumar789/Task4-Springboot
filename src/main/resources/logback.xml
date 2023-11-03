@@ -1,0 +1,29 @@
+<configuration>
+    <appender name="INFO" class="ch.qos.logback.core.FileAppender">
+        <file>info.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+    <appender name="DEBUG" class="ch.qos.logback.core.FileAppender">
+        <file>debug.log</file>
+        <encoder>
+            <pattern>%d{HH:mm} [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <root level="msklmdl">
+        <appender-ref ref="INFO"/>
+        <appender-ref ref="DEBUG"/>
+    </root>
+</configuration>

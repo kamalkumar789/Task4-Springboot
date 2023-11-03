@@ -1,0 +1,32 @@
+10:21:46.922 [main] INFO  com.wavetec.Task4.Task4Application - Starting Task4Application using Java 17.0.9 with PID 37212 (D:\Tasks\Task4\build\classes\java\main started by Admin in D:\Tasks\Task4)
+10:21:46.936 [main] INFO  com.wavetec.Task4.Task4Application - No active profile set, falling back to 1 default profile: "default"
+10:21:51.448 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 45102 (http)
+10:21:51.463 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-45102"]
+10:21:51.476 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:21:51.476 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+10:21:52.050 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:21:52.050 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4868 ms
+10:21:58.865 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-45102"]
+10:21:59.212 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 45102 (http) with context path ''
+10:21:59.379 [main] INFO  com.wavetec.Task4.Task4Application - Started Task4Application in 13.758 seconds (process running for 15.747)
+10:22:37.797 [http-nio-45102-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:22:37.798 [http-nio-45102-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:22:37.803 [http-nio-45102-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+10:22:37.950 [http-nio-45102-exec-2] INFO  c.w.T.Controllers.UserController - In user controller
+10:22:37.950 [http-nio-45102-exec-2] INFO  c.wavetec.Task4.Service.UserService - In UserService...
+15:16:22.742 [main] INFO  com.wavetec.Task4.Task4Application - Starting Task4Application using Java 17.0.9 with PID 23132 (D:\Tasks\Task4\build\classes\java\main started by Admin in D:\Tasks\Task4)
+15:16:22.748 [main] INFO  com.wavetec.Task4.Task4Application - No active profile set, falling back to 1 default profile: "default"
+15:16:24.494 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 45102 (http)
+15:16:24.503 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-45102"]
+15:16:24.506 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:16:24.506 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+15:16:24.662 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:16:24.663 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1840 ms
+15:16:26.181 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-45102"]
+15:16:26.219 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 45102 (http) with context path ''
+15:16:26.248 [main] INFO  com.wavetec.Task4.Task4Application - Started Task4Application in 4.022 seconds (process running for 4.849)
+15:16:53.864 [http-nio-45102-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:16:53.864 [http-nio-45102-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:16:53.866 [http-nio-45102-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:16:53.923 [http-nio-45102-exec-1] INFO  c.w.T.Controllers.UserController - In user controller
+15:16:53.924 [http-nio-45102-exec-1] INFO  c.wavetec.Task4.Service.UserService - In UserService...
